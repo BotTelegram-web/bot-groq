@@ -48,3 +48,6 @@ if __name__ == "__main__":
 
     print("✅ Bot iniciado com GroqCloud!")
     app.run_polling()
+    from gtts import gTTS
+import os
+
