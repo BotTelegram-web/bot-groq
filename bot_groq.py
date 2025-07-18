@@ -11,8 +11,8 @@ from telegram.ext import (
 )
 
 # Tokens (leia de variáveis de ambiente)
-TELEGRAM_BOT_TOKEN = os.getenv("7997139629:AAFLVtfS0cuzjbqnmXkiZI1yCDfpAAXN1IU")
-GROQ_API_KEY = os.getenv("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")
+TELEGRAM_BOT_TOKEN = os.getenv(7997139629:AAFLVtfS0cuzjbqnmXkiZI1yCDfpAAXN1IU)
+GROQ_API_KEY = os.getenv(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)
 
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama3-8b-8192"
