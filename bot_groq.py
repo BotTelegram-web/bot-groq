@@ -9,7 +9,7 @@ from telegram.ext import (
     MessageHandler,
     filters,
 )
-import aiohttp
+import http
 
 # Logging
 logging.basicConfig(
