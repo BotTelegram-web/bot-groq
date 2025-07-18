@@ -18,7 +18,7 @@ GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "llama3-8b-8192"
 
 HEADERS = {
-    "Authorization": f"Bearer {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}",
+    "Authorization": f"Bearer {GROQ_API_KEY}",
     "Content-Type": "application/json"
 }
 
